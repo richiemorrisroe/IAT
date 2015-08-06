@@ -1,0 +1,7 @@
+{"require" : {
+    "facebook/xhp-lib" : "dev-master"
+}, "minimum-stability" : "dev",
+    "require" : {
+    "hhvm/xhp-bootstrap" : "dev-master"
+}
+}
