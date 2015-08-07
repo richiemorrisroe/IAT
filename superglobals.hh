@@ -5,8 +5,9 @@ function get_params(): array {
 }
 
 function env_vars(): array {
-  return $_ENV
+  return $_ENV;
     }
 
 function get_cookies(): array {
-  return $_COOKIE
+  return $_COOKIE;
+}
