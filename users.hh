@@ -1,9 +1,9 @@
-<?hh 
+<?hh //strict
 class Person {
   public function __construct(int $uid,
                               string $email,
                               ?Vector<int> $tests_taken) {
-    $this->$uid = $uid;
+    $this->uid = $uid;
     $this->$email = $email;
     if($tests_taken) {
       $this->$tests_taken = $tests_taken;
