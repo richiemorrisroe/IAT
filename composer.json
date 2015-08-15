@@ -3,5 +3,8 @@
 }, "minimum-stability" : "dev",
     "require" : {
     "hhvm/xhp-bootstrap" : "dev-master"
+    },
+ "require": {
+"hhvm/asio-utilities": "~1.0"
 }
 }
